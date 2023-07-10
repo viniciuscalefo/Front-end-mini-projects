@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(30, 38%, 92%)
+}
+/*Container*/
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Product Description*/
+.description{
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'title title'
+    'title title'
+    'paragraph paragraph'
+    'pirce-new price-old'
+    'cart cart';
+}
+#header{
+    grid-area: header;
+}
+#title{
+    grid-area: title;
+}
+#paragraph{
+    grid-area: paragraph;
+}
+#price-new{
+    grid-area: price-new;
+}
+#price-old{
+    grid-area: price-old;
+}
+#cart{
+    grid-area: cart;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
