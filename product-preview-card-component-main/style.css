@@ -101,7 +101,7 @@ img{
     height: 25px;
     margin-left:60px
 }
-@media (max-width: 1080px) {
+@media (max-width: 1081px) {
     .container {
       flex-direction: column;
       justify-content: center;
