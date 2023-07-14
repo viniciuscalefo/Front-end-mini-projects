@@ -1,0 +1,105 @@
+:root{
+    /* colors */
+    --bg-main:hsl(217, 54%, 11%);
+    --bg-card: hsl(216, 50%, 16%);
+    --line:hsl(215, 32%, 27%);
+    --white:hsl(0, 0%, 100%);
+    /* fonts */
+    --font-family:'Outfit', sans-serif;
+    --font-size:18px
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width:400px){
+    body{
+        height: 100vh;
+        width: 100%;
+        background-color: var(--bg-main)
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        width: 80%;
+        background-color: var(--bg-card);
+        margin-top: 5rem;/*trocar depois, alinhamneto provisorio*/
+        margin-left: 2.5rem;/*trocar depois, alinhamneto provisorio*/
+        border-radius:0.7rem ;
+        
+    }
+    .image{
+        align-self: center;
+        justify-content:center;
+        height:100%;
+        width:100%;   
+    }
+    .equilibrium{
+        position: relative;
+        height:100%;
+        width:90%;
+        margin: 20px;
+        border-radius:0.7rem
+    }
+    .content{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        margin: 1rem;
+    } 
+    .title{
+        font-family: var(--font-family);
+        font-size:2rem;
+        font-weight: 600;
+    }
+    .paragraph{
+        font-size:20px;
+        font-family: var(--font-family);
+        font-weight: 300;
+        margin:20px 20px 20px 8px;
+        font-weight: 300;
+    }
+    .price-time{
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+    }
+    .price{
+        font-size: var(--font-size);
+        font-family: var(--font-family);
+        color: #44FFFA;
+    }
+    .time{
+        font-size:20px;
+        font-family: var(--font-family);
+        color: #8BACD9;
+    }
+    .creator{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .avatar{
+        width: 3rem;
+        height: 3rem;
+        border: 3px solid white;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    .creator-name{
+        font-family: var(--font-family);
+        font-size:1rem;
+        color: #8BACD9;
+    }
+    span{
+        color: white;
+    }
+
+}
