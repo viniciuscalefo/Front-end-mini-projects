@@ -1,13 +1,33 @@
-html,body{
-    height: 100%;
-    width: 90%;
-    background:linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%))
+*{
+    margin: 0;
+    padding: 0;
 }
 .container{
-    display: block;
+    display:flex;
     justify-content: center;
     align-items: center;
-    height:50%;
-    width: 60%;
+    height:100vh;
+    background:linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+}
+.main{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 500px;
+    width: 900px;
     background-color: aliceblue;
+    background-image:url(images/bg-pattern-desktop.svg);
+    border-radius: 20px;
+}
+.photo{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.woman{
+    align-self:center;
+    justify-self:flex-start;
+    
 }
