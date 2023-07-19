@@ -83,7 +83,7 @@ body{
 span{
     color: hsl(277, 64%, 61%);
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:600px){
     .container{
         max-width: 370px;
         max-height: 100vh;
