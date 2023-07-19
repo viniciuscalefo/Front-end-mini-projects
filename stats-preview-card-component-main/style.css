@@ -49,6 +49,13 @@ body{
 .states p{
     font-family: 'Lexend Deca', sans-serif;
 }
+.item1{order: 1;}
+.item2{order: 4;}
+.item3{order: 2;}
+.item4{order: 5;}
+.item5{order: 3;}
+.item6{order: 6;}
+
 .right{
   position: relative;
   width: 50%;
@@ -124,8 +131,12 @@ span{
         font-weight: 400;
         font-size: 14px;
     }
-    
-
+    .item1{order: 1;}
+    .item2{order: 2;}
+    .item3{order: 3;}
+    .item4{order: 4;}
+    .item5{order: 5;}
+    .item6{order: 6;}
 }
 /* 
 font-family: ;
